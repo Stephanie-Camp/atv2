@@ -8,5 +8,6 @@ console.log(res.toUpperCase())
 console.log(res.toLowerCase())
 console.log(res.trim())
 console.log(res.replace("declarado", "considerado"))
-console.log("Inicio de frase: ", res.startsWith(" "), "\nFinal de frase: ", res.endsWith(u))
+console.log("Inicio de frase: ", res.startsWith(" "), "\nFinal de frase: ", res.endsWith("u"))
 console.log("Localizando na frase: ", res.includes("lugar"))
+

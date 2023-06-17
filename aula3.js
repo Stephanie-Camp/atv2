@@ -15,9 +15,10 @@ if(x > 0){
   console.log("O numero e zero!")
 }
 
-var y = 21%2
+var z = 32
+var y = z%2
 if(y === 0){
-  console.log("O numero par!")
+  console.log("O numero e par!")
 }if(y != 0){
   console.log("O numero e impar!")
 }
@@ -36,4 +37,3 @@ if(nome === senha){
 }else{
   console.log("Nome e senha validos!")
 }
-

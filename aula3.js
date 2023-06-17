@@ -32,7 +32,7 @@ if(nota >= 6){
 
 var nome = "Laura"
 var senha = 0102
-if(nome === senha){
+if(nome == senha || senha === 1234){
   console.log("Nome e senha invalidos! \nTente novamente.")
 }else{
   console.log("Nome e senha validos!")

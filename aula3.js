@@ -6,20 +6,20 @@ console.log("3 > 5: ", 3 > 5) //O mais adequado e o operador comparativo '>', va
 
 console.log("10 > 5 && 7 < 3: ", 10 > 5 && 7 < 3)
 
-var x = -7
+var x = -4
 if(x > 0){
   console.log("O numero e positivo!")
-}if(x < 0){
+}else if(x < 0){
   console.log("O numero e negativo!")
-}if(x === 0){
+}else{
   console.log("O numero e zero!")
 }
 
-var z = 32
+var z = 23
 var y = z%2
 if(y === 0){
   console.log("O numero e par!")
-}if(y != 0){
+}else{
   console.log("O numero e impar!")
 }
 

@@ -4,12 +4,13 @@ const rl = readline.createInterface(process.stdin);
 console.log("Seja bem vindo(a)!\nEscolha uma opcao de nosso cardapio de 1 a 4: ");
 
 rl.question("", (data)=>{
-  var num = Number(data); 
+  var num = Number(data);
+  
   switch (num){
     case 1:
       console.log("Voce escolheu: Lasanha.");
       break;
-     case 2:
+    case 2:
       console.log("Voce escolheu: Salmao grelhado.");
       break;
     case 3:
@@ -21,4 +22,5 @@ rl.question("", (data)=>{
     default:
       console.log("Opcao invalida! \nPor favor, escolha uma opcao valida.");
   }
+  
 })

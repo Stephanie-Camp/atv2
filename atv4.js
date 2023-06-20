@@ -13,7 +13,7 @@ if(num === valor){
 }else if(num < valor && num > 0){
   console.log("Tente um numero maior.");
 }else{
-  console.log("Valor invalido. Digite um n[umero valido");
+  console.log("Valor invalido. Digite um numero valido");
 }
   
 })

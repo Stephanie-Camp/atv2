@@ -1,8 +1,8 @@
 var isRanning = true
 var isSunny = false
-console.log("isRanning: ", isRanning, "\nisSunny: ", isSunny)
+console.log("isRanning: ", isRanning, "\nisSunny: ", isSunny) 
 
-console.log("3 > 5: ", 3 > 5) //O mais adequado e o operador comparativo '>', vai conferir se 3 e maior que 5 de forma rapida 
+console.log("3 > 5: ", 3 > 5) //O mais adequado e o operador comparativo '>', vai conferir se 3 e maior que 5 de forma rapida
 
 console.log("10 > 5 && 7 < 3: ", 10 > 5 && 7 < 3)
 

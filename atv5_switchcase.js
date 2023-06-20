@@ -1,7 +1,7 @@
 const readline = require('readline');
 let rl = readline.createInterface(process.stdin);
 
-console.log("Seja bem vindo(a)!\nEscolha uma opcao de nosso cardapio: ");
+console.log("Seja bem vindo(a)!\nEscolha uma opcao de nosso cardapio de 1 a 5: ");
 
 rl.question("", (data)=>{
   var num = Number(data); 

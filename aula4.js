@@ -9,6 +9,6 @@ rl.question("", (data)=>{//recebe sempre dois parametros("", (data))
   var num = Number(data); //number e necessario para realizar a conversao das variaveis
 rl.question("", (data)=>{
   var num2 = Number(data);
-  console.log(num + num2); //Number(num)+Number(num2) funciona
+  console.log("SOMA: ", num + num2); //Number(num)+Number(num2) funciona
 })
 })

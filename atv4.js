@@ -2,7 +2,7 @@ const readline = require("readline");
 let rl = readline.createInterface(process.stdin);
 const random = Math.floor(Math.random()*10)+1;
 
-console.log("Seja bem vindo(a)!\nTente a sorte, e digite um numero entre 1 e 10: ")
+console.log("Seja bem vindo(a)!\nTente a sorte, e digite um numero entre 1 e 10: ");
 
 rl.question("", (data)=>{
   var num = Number(data);

@@ -2,7 +2,7 @@ const readline = require("readline");
 const rl = readline.createInterface(process.stdin);
 const valor = Math.floor(Math.random()*10)+1;
 
-console.log("Seja bem vindo(a)!\nTente a sorte, e digite um numero: ")
+console.log("Seja bem vindo(a)!\nTente a sorte, e digite um numero entre 1 e 10: ")
 
 rl.question("", (data)=>{
   var num = Number(data);
@@ -13,7 +13,7 @@ if(num === valor){
 }else if(num < valor && num > 0){
   console.log("Tente um numero maior.");
 }else{
-  console.log("Valor invalido. Digite um numero valido");
+  console.log("Valor invalido. Digite um numero valido!");
 }
   
 })

@@ -20,6 +20,5 @@ rl.question("", (data)=>{
       break;
     default:
       console.log("Opcao invalida! \nPor favor, escolha uma opcao valida.");
-      break;
   }
 })

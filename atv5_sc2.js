@@ -9,10 +9,10 @@ rl.question("", (data)=>{
   rl.question("", (data)=>{ 
     var num2 = Number(data);
     let ex = Math.pow(num1, num2);
-    console.log("\nOperacoes que podem ser realizadas:\na - Soma \nb - Subtracao\nc - Multiplicacao \nd - Divisao \ne - Exponenciacao \nf- Resto da divisao \nDigite uma opcao, por favor:");
+    console.log("Operacoes que podem ser realizadas:\na - Soma \nb - Subtracao\nc - Multiplicacao \nd - Divisao \ne - Exponenciacao \nf- Resto da divisao \nDigite uma opcao, por favor:");
     rl.question("", (data)=>{
       var op = data;
-
+      
       switch(op){
         case "a":
           console.log("Resultado da soma: ", num1+num2);

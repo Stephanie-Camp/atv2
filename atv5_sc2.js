@@ -1,7 +1,7 @@
 const readline = require('readline');
 const rl = readline.createInterface(process.stdin);
 
-console.log("Bem vindo!\nDigite dois numeros, por favor:")
+console.log("Bem vindo(a)!\nDigite dois numeros, por favor:")
 
 rl.question("", (data)=>{
   var num1 = Number(data);

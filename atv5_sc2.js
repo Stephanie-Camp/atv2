@@ -1,15 +1,16 @@
 const readline = require('readline');
 const rl = readline.createInterface(process.stdin);
 
-
 console.log("Bem vindo!\nDigite dois numeros, por favor:")
 
 rl.question("", (data)=>{
   var num1 = Number(data);
+  
   rl.question("", (data)=>{ 
     var num2 = Number(data);
     let ex = Math.pow(num1, num2);
     console.log("Operacoes que podem ser realizadas:\na - Soma \nb - Subtracao\nc - Multiplicacao \nd - Divisao \ne - Exponenciacao \nf- Resto da divisao \nDigite uma opcao, por favor:");
+    
     rl.question("", (data)=>{
       var op = data;
       

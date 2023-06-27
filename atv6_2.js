@@ -2,11 +2,11 @@
 const readline = require('readline');
 const rl = readline.createInterface(process.stdin);
 
-  var num = parseInt(5555);
+  var num = parseInt(1234);
 
   if(num > 999 && num <10000){
     for(var i = 0; i < 4; i++){
-      var x = num / (10000/(10**i));
+      var x = num / (1000/(10**i));
       num = num%(1000/(10**i));
       console.log(`Posicao ${i}: `, x);
     }

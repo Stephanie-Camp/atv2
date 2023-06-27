@@ -28,7 +28,7 @@ rl.question("", (data)=>{
           console.log("Resultado da divisao: ", (num1/num2));
           break;
         case "e":
-          console.log("Resultado da exponenciacao: ", (ex));
+          console.log("Resultado da exponenciacao: ", (ex); //pode ser escrito como (num1**num2)
           break;
         case "f":
           console.log("Resto da divisao entre o primeiro e o segundo numero: ", (num1%num2));

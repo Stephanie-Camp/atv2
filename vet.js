@@ -11,5 +11,3 @@ console.log(vet.length)
 
 var somArry = vet.map(e => e**2)
   console.log(somArry)
-
-

@@ -10,5 +10,6 @@ while(true){
     break;
   }
   v.splice(num, 1);
+
 }
 console.log(v);

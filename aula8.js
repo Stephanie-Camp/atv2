@@ -24,10 +24,10 @@ console.log("posicao do valor '12' no vetor: ", vetor1.indexOf(12)) //mostra a p
 var v = [1, 1, 3, 1, 1, 7, 1, 1, 8, 1]
 var value = 1
 while(true){
-var indexkit = v.indexOf(value)
-v.splice(indexkit, 1)
-if(indexkit === -1){
-  break;
-}
+  var indexkit = v.indexOf(value)
+  v.splice(indexkit, 1)
+  if(indexkit === -1){
+    break;
+  }
 }
 console.log("Vetor v: ", v);

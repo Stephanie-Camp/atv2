@@ -31,7 +31,7 @@ var res = soma2(7, 8, 9); //armazenando a funcao em uma variavel
 console.log(res);
 
 //funcao anonima
-let div = function divisao(x, y) {return x / y;} //funcao sem nome que retorna algo
+let div = function(x, y) {return x / y;} //funcao sem nome que retorna algo
 let divRes = div(10, 2);
 console.log(divRes);
 
